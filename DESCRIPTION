@@ -2,10 +2,11 @@ Package: manufactr
 Title: Manufactures Bootstrapped Data Sets, Coefficients, Covariance Matrices, and Predicted Values.
 Version: 0.0.0.9000
 Authors@R: 
-    person("A. Matthew", "Eichinger", , "eichinger.matt@gmail.com", role = c("author", "creator"))
+    person("A. Matthew", "Eichinger", role = c("auth", "cre"), email = "eichinger.matt@gmail.com")
+Author: A. Matthew Eichinger [aut, cre]
+Maintainer: A. Matthew Eichinger [aut, cre]
+Depends: MASS
 Description: Provides a set of wrappers to make bootstrapping and predicted values easy. The methods can be combined with predict() styles of functions to simulate predicted values and confidence intervals at values of independent variables supplied by the user. The package currently works with only linear models but will soon be expanded to GLMs.
-Imports:
-	MASS
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
