@@ -2,7 +2,7 @@ Package: manufactr
 Title: Manufactures Bootstrapped Data Sets, Coefficients, Covariance Matrices, and Predicted Values.
 Version: 0.0.0.9000
 Authors@R: 
-    person("A. Matthew", "Eichinger", role = c("auth", "cre"), email = "eichinger.matt@gmail.com")
+    person("A. Matthew", "Eichinger", role = c("aut", "cre"), email = "eichinger.matt@gmail.com")
 Author: A. Matthew Eichinger [aut, cre]
 Maintainer: A. Matthew Eichinger [aut, cre]
 Depends: MASS
